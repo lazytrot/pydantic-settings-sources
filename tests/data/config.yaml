@@ -1,0 +1,8 @@
+string_value: ${STRING_VALUE}
+integer_value: ${INTEGER_VALUE}
+float_value: ${FLOAT_VALUE}
+boolean_value: ${BOOLEAN_VALUE}
+list_value: ${LIST_VALUE}
+dict_value: ${DICT_VALUE}
+list_of_dicts_value: ${LIST_OF_DICTS_VALUE}
+nested_dict_value: ${NESTED_DICT_VALUE}
