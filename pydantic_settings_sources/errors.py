@@ -1,5 +1,5 @@
 class ConfigSourceError(Exception):
-    """Base exception for pydantic-settings-sources."""
+    """Base exception for pydantic-settings-extra-sources."""
 
 
 class ConfigFileParsingError(ConfigSourceError):

@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "pydantic-settings-sources"
+name = "pydantic-settings-extra-sources"
 version = "0.1.0"
 description = "Extra sources for pydantic-settings with environment variable substitution for YAML and TOML files"
-authors = ["Your Name <you@example.com>"]
+authors = ["LazyTrot <admin@lazytrot.dev>"]
 readme = "README.md"
 license = "MIT"
 keywords = ["pydantic", "settings", "yaml", "toml", "environment", "config", "configuration"]

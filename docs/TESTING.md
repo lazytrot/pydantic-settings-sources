@@ -1,6 +1,6 @@
 # Testing Guide
 
-This document describes the testing strategy and how to run tests for pydantic-settings-sources.
+This document describes the testing strategy and how to run tests for pydantic-settings-extra-sources.
 
 ## Python Version Support
 

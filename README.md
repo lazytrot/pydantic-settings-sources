@@ -1,4 +1,4 @@
-# pydantic-settings-sources
+# pydantic-settings-extra-sources
 
 Extra configuration sources for [pydantic-settings](https://github.com/pydantic/pydantic-settings) that enable loading settings from YAML and TOML files with environment variable substitution.
 
@@ -14,7 +14,7 @@ Extra configuration sources for [pydantic-settings](https://github.com/pydantic/
 ## Installation
 
 ```bash
-poetry add pydantic-settings-sources
+poetry add pydantic-settings-extra-sources
 ```
 
 ## Quick Start
@@ -183,7 +183,7 @@ Files are processed in alphabetical order, with later files overriding earlier o
 ## Error Handling
 
 ```python
-from pydantic_settings_sources.errors import MissingEnvVarError, ConfigFileParsingError
+from pydantic_settings_extra_sources.errors import MissingEnvVarError, ConfigFileParsingError
 
 try:
     settings = Settings()
