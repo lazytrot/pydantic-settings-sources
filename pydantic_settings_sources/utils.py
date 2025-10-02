@@ -1,10 +1,9 @@
+import json
 import os
 import re
-import json
 from typing import Any
 
 from pydantic_settings_sources.errors import MissingEnvVarError
-
 
 env_var_regex = re.compile(r"\$\{([^:}]+)(?::-([^}]+))?\}")
 
