@@ -1,5 +1,6 @@
 [tool.poetry]
 name = "pydantic-settings-extra-sources"
+packages = [{include = "pydantic_settings_sources"}]
 version = "0.1.0"
 description = "Extra sources for pydantic-settings with environment variable substitution for YAML and TOML files"
 authors = ["LazyTrot <admin@lazytrot.dev>"]
